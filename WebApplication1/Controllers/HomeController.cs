@@ -15,8 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-       ViewBag.ShowWelcome =
-        Environment.GetEnvironmentVariable("welcome message") == "true";
+      
         return View();
     }
 
